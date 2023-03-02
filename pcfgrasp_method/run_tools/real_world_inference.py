@@ -1,4 +1,3 @@
-#! /home/cyf/anaconda3/envs/tcg/bin/python3.7
 import os
 os.environ['PYOPENGL_PLATFORM']='osmesa'
 os.environ['CUDA_VISIBLE_DEVICES']='0'
