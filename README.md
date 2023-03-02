@@ -16,7 +16,7 @@ If you find our work useful, please cite.
 ```bash
 #only for test
 mkdir pcf_grasp
-cd pcg_grasp
+cd pcf_grasp
 git clone
 
 └── pcf_grasp
