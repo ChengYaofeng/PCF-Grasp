@@ -17,7 +17,7 @@ If you find our work useful, please cite.
 #only for test
 mkdir pcf_grasp
 cd pcf_grasp
-git clone
+git clone https://github.com/ChengYaofeng/PCF-Grasp.git
 
 └── pcf_grasp
     └── pcfgrasp_method
@@ -25,7 +25,7 @@ git clone
 #for train
 mkdir pcf_grasp
 cd pcf_grasp
-git clone 
+git clone https://github.com/ChengYaofeng/PCF-Grasp.git
 mkdir acronym
 
 └── pcf_grasp
