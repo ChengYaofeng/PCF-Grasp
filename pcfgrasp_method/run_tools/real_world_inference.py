@@ -24,8 +24,8 @@ import cv2
 import open3d as o3d
 import pyrealsense2 as rs
 import multiprocessing as mp
-from mask_rcnn.demo.demo import get_parser, setup_cfg
-from mask_rcnn.demo.predictor import VisualizationDemo
+from detectron2.demo.demo import get_parser, setup_cfg
+from detectron2.demo.predictor import VisualizationDemo
 
 ###############if ros##################
 from contact_graspnet_ros.msg import objects_grasp_pose
@@ -154,7 +154,7 @@ def main(args, K=None, z_range=[0.2,1.2] ,forward_passes=1):
                 
                 mp.set_start_method("spawn", force=True)
                 # argparse = get_parser().parse_args()
-                args.config_file = '~/pcf_grasp/pcfgrasp_method/mask_rcnn/configs/COCO-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_3x.yaml'
+                args.config_file = '~/pcf_grasp/pcfgrasp_method/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_3x.yaml'
                 args.opts = ['MODEL.WEIGHTS', 'detectron2://COCO-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_3x/139653917/model_final_2d9806.pkl']
                 cfg = setup_cfg(args)
 
@@ -245,7 +245,7 @@ if __name__ == '__main__':
     parser.add_argument('--config_dir', type=str, default='~/pcf_grasp/pcfgrasp_method/')
 
     #mask-rcnn
-    parser.add_argument('--config_file', metavar="FILE", default='~/pcf_grasp/pcfgrasp_method/mask_rcnn/configs/COCO-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_3x.yaml')
+    parser.add_argument('--config_file', metavar="FILE", default='~/pcf_grasp/pcfgrasp_method/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_3x.yaml')
     parser.add_argument('--opts', nargs=argparse.REMAINDER, default=['MODEL.WEIGHTS', 'detectron2://COCO-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_3x/139653917/model_final_2d9806.pkl'])
     parser.add_argument('--confidence-threshold', type=float, default=0.5, help="Minimum score for instance predictions to be shown",)
 
