@@ -15,15 +15,15 @@ If you find our work useful, please cite.
 
 ```bash
 #only for test
-cd PCF-Grasp
 git clone https://github.com/ChengYaofeng/PCF-Grasp.git
+cd PCF-Grasp
 
 └── PCF-Grasp
     └── pcfgrasp_method
 
 #for train
-cd PCF-Grasp
 git clone https://github.com/ChengYaofeng/PCF-Grasp.git
+cd PCF-Grasp
 mkdir acronym
 
 └── PCF-Grasp
