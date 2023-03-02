@@ -15,20 +15,18 @@ If you find our work useful, please cite.
 
 ```bash
 #only for test
-mkdir pcf_grasp
-cd pcf_grasp
+cd PCF-Grasp
 git clone https://github.com/ChengYaofeng/PCF-Grasp.git
 
-└── pcf_grasp
+└── PCF-Grasp
     └── pcfgrasp_method
 
 #for train
-mkdir pcf_grasp
-cd pcf_grasp
+cd PCF-Grasp
 git clone https://github.com/ChengYaofeng/PCF-Grasp.git
 mkdir acronym
 
-└── pcf_grasp
+└── PCF-Grasp
     ├── acronym
     └── pcfgrasp_method
 ```
@@ -79,14 +77,14 @@ Then, you can follow [contact-graspnet](https://github.com/NVlabs/contact_graspn
 ### grasp inference
 
 ```bash
-cd /pcf_grasp/pcfgrasp_method
+cd /PCF-Grasp/pcfgrasp_method
 bash ./scripts/inference.sh
 ```
 
 ### point completion inference
 
 ```bash
-cd /pcf_grasp/pcfgrasp_method
+cd /PCF-Grasp/pcfgrasp_method
 bash ./scripts/pre_inference.sh
 ```
 
@@ -96,7 +94,7 @@ We use realsense d435 camera in our code. If you are the same camera and want to
 
 ```bash
 ------------download detectron2-------
-cd /pcf_grasp/pcfgrasp_method
+cd /PCF-Grasp/pcfgrasp_method
 git clone https://github.com/facebookresearch/detectron2.git
 python -m pip install -e detectron2
 -----------------run code-------------
