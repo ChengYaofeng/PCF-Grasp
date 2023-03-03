@@ -2,7 +2,7 @@
 
 ## PCF-Grasp: Pointclouds Completion of Feature for 6-DoF Grasp
 
-[paper]() , [video-bilibili](), [video-youtobe]()
+[paper]() , [video-bilibili](), [video-youtube]()
 
 ## Citation
 If you find our work useful, please cite.
