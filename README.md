@@ -42,6 +42,7 @@ conda env create -f pcf.yaml
 If you want to pretrain, use follow to setup CD.
 
 ```bash
+conda activate pcf
 cd extensions/chamfer_distance
 python setup.py install
 ```
