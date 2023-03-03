@@ -2,7 +2,7 @@
 
 ## PCF-Grasp: Pointclouds Completion of Feature for 6-DoF Grasp
 
-[paper]() , [video]()
+[paper]() , [video-bilibili](), [video-youtobe]()
 
 ## Citation
 If you find our work useful, please cite.
@@ -124,5 +124,4 @@ geometry_msgs/Pose[]  grasp_pose
 ```
 
 ## License
----
 MIT-LICENSE
