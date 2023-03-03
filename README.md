@@ -73,22 +73,35 @@ Then, you can follow [contact-graspnet](https://github.com/NVlabs/contact_graspn
 ```
 
 ## Running
+### Train
++ Pointclouds Completion
+```bash
+cd /PCF-Grasp/pcfgrasp_method
+bash ./scripts/pretrain.sh
+```
 
-### grasp inference
++ 6-DoF Grasp
+```bash
+cd /PCF-Grasp/pcfgrasp_method
+bash ./scripts/train.sh
+```
+---
+### Inference
++ grasp inference
 
 ```bash
 cd /PCF-Grasp/pcfgrasp_method
 bash ./scripts/inference.sh
 ```
 
-### point completion inference
++ point completion inference
 
 ```bash
 cd /PCF-Grasp/pcfgrasp_method
 bash ./scripts/pre_inference.sh
 ```
 
-### real world inference
++ real world inference
 
 We use realsense d435 camera in our code. If you are the same camera and want to test in the real world scenes, you can use our code directly. Download [detectron2](https://detectron2.readthedocs.io/en/latest/tutorials/install.html).
 
