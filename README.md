@@ -75,6 +75,7 @@ Then, you can follow [contact-graspnet](https://github.com/NVlabs/contact_graspn
 
 ## Running
 ### Train
+We recommend the bach_size at least 5, it is because sometimes the virtual camera can't capture some object as the object and camera are randomly placed.
 + Pointclouds Completion
 ```bash
 cd /PCF-Grasp/pcfgrasp_method
