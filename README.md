@@ -49,7 +49,7 @@ python setup.py install
 
 ### Model
 
-Download our trained models from [here]().
+Download our trained models from [baidu cloud disk](), Extract code:.
 
 ### Dataset
 
@@ -122,3 +122,7 @@ What's more, if you want to test on robot. You can create a msg file as `objects
 int32[] obj_index
 geometry_msgs/Pose[]  grasp_pose
 ```
+
+## License
+---
+MIT-LICENSE
