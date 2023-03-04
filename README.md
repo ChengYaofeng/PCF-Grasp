@@ -3,7 +3,7 @@ This repo will be update soon!
 
 ## PCF-Grasp: Pointclouds Completion of Feature for 6-DoF Grasp
 
-[paper](), [video-bilibili](), [video-youtube](https://www.youtube.com/watch?v=w59oeQmOeNQ)
+[paper](), [video-bilibili](https://www.bilibili.com/video/BV1T54y1g7Ge/?vd_source=4aefc873e924f398cda3082e2f8e633e), [video-youtube](https://www.youtube.com/watch?v=w59oeQmOeNQ)
 
 ## Citation
 If you find our work useful, please cite.
@@ -34,7 +34,7 @@ mkdir acronym
 
 ### Installation
 
-Create the conda env. CUDA 11.1, Pytorch 1.8
+Create the conda env. Pytorch 1.8+, CUDA 11.1.
 
 ```bash
 conda env create -f pcf.yaml
