@@ -3,11 +3,21 @@ This repo will be update soon!
 
 ## PCF-Grasp: Converting Point Completion to Geometry Feature to Enhance 6-DoF Grasp
 
-[paper](), [video-bilibili](https://www.bilibili.com/video/BV1T54y1g7Ge/?vd_source=4aefc873e924f398cda3082e2f8e633e), [video-youtube](https://www.youtube.com/watch?v=w59oeQmOeNQ)
+[paper](https://ieeexplore.ieee.org/document/11242157), [video-bilibili](https://www.bilibili.com/video/BV1T54y1g7Ge/?vd_source=4aefc873e924f398cda3082e2f8e633e), [video-youtube](https://www.youtube.com/watch?v=w59oeQmOeNQ)
 
 ## Citation
 If you find our work useful, please cite.
 ```latex
+@ARTICLE{11242157,
+  author={Cheng, Yaofeng and Zha, Fusheng and Guo, Wei and Wang, Pengfei and Zeng, Chao and Sun, Lining and Yang, Chenguang},
+  journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems}, 
+  title={PCF-Grasp: Converting Point Completion to Geometry Feature to Enhance 6-DoF Grasp}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-12},
+  keywords={Robots;Grasping;6-DOF;Shape;Proposals;Cameras;Robot vision systems;Point cloud compression;Geometry;Training;Completion for grasping;deep learning for grasping;robotic 6-degree-of-freedom (DoF) grasping},
+  doi={10.1109/TSMC.2025.3628946}}
 ```
 
 ## Download Model and Dataset
