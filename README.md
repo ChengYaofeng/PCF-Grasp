@@ -60,7 +60,7 @@ python setup.py install
 
 ### Model
 
-Download our trained models from [baidu cloud disk](), Extract code:.
+Download our trained models could be found in checkpoints file.
 
 ### Dataset
 
