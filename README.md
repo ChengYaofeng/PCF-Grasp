@@ -1,5 +1,4 @@
 # PCF-Grasp
-This repo will be update soon!
 
 ## PCF-Grasp: Converting Point Completion to Geometry Feature to Enhance 6-DoF Grasp
 
