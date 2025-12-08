@@ -59,9 +59,10 @@ python setup.py install
 
 ### Model
 
-Download our trained models could be found in checkpoints file.
+Our trained models could be found in the checkpoints file.
 
 ### Dataset
+Our dataset could be downloaded at [baidu_disk](https://pan.baidu.com/s/1GJshXUDwcwZqdtU7CL0JUQ?pwd=c956) with c956; [google drive](https://drive.google.com/file/d/1kzQwr7kA6dsohurVdpRdOY6R6vHf3nvn/view?usp=sharing)
 
 Our dataset followed the [contact-graspnet](https://github.com/NVlabs/contact_graspnet), but we only placed one object in each scene.
 
