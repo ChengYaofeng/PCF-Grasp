@@ -116,7 +116,7 @@ bash ./scripts/pre_inference.sh
 
 + real world inference
 
-We use realsense d435 camera in our code. If you are the same camera and want to test in the real world scenes, you can use our code directly. Download [detectron2](https://detectron2.readthedocs.io/en/latest/tutorials/install.html).
+We use realsense d435 camera in our code. If you are the same camera and want to test in the real world scenes, you can use our code directly. Currently, we have changed it to Yolov5. You can also use [detectron2](https://detectron2.readthedocs.io/en/latest/tutorials/install.html).
 
 ```bash
 ------------download detectron2-------
